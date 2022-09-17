@@ -1,0 +1,57 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://media.istockphoto.com/photos/pebble-on-beach-picture-id175590369?b=1&k=20&m=175590369&s=170667a&w=0&h=5syX_UNVbp2Uz6dNMBy2fbvXWCMO_fSYpb91fG9Cy-M=");
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 19px;
+    text-align: center;
+    color: rgb(230, 14, 14);
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(77, 77, 145);
+    opacity: .8;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    opacity: .9;
+
+}
+.clock #ampm{
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    background: yellow;
+}
